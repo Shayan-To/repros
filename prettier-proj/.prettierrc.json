@@ -1,0 +1,24 @@
+{
+    "useTabs": false,
+    "tabWidth": 4,
+    "overrides": [
+        {
+            "files": "*.json-1",
+            "options": {
+                "parser": "json"
+            }
+        },
+        {
+            "files": "**/*.json-2",
+            "options": {
+                "parser": "json"
+            }
+        },
+        {
+            "files": "../**/*.json-3",
+            "options": {
+                "parser": "json"
+            }
+        }
+    ]
+}

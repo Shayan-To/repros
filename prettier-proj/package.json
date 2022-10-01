@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "repro": "prettier --write ../**/*.{json-1,json-2,json-3}"
+  },
+  "dependencies": {
+    "prettier": "^2.7.1"
+  }
+}
